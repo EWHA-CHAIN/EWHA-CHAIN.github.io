@@ -1,11 +1,14 @@
 import React from 'react';
+import Main0 from './main-detail/Main0';
+import Main1 from "./main-detail/Main1";
+import Main2 from "./main-detail/Main2";
 
 const Home = () => {
   return(
-    <div className="page">
-      <section>
-        <div className="subtit">ABOUT US</div>
-      </section>
+    <div id="Home">
+      <Main0/>
+      <Main1/>
+      <Main2/>
     </div>
   )
 }

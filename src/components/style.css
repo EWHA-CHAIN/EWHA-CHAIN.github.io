@@ -1,3 +1,5 @@
+
+
 /* Header - nav var */
 header {
     background-color: white;
@@ -33,9 +35,48 @@ header li a {
 .page {
     margin-top: 80px;
     padding: 20px;
+    height: 500px;
+    align-content: center;
 }
 
 .page .subtit {
     font-size: 24px;
     font-weight: 900;
+}
+
+#catchphrase {
+    background-color: black;
+    margin: 0 auto;
+    width: 90%;
+    height: 95%;
+    text-align: center;
+}
+
+#catchphrase > .main_tit {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate( -50%, -50% );
+}
+
+#catchphrase > .main_tit > .bold {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#catchphrase > .sub_tit {
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+/* responsive */
+@media screen {
+    
 }

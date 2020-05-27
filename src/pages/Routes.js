@@ -5,6 +5,7 @@ import Portfolio from '../components/Portfolio'
 import Recruiting from '../components/Recruiting'
 import Header from "../components/Header";
 import Alumni from "../components/Alumni";
+import Footer from '../components/Footer';
 
 export default () => (
   <Router>
@@ -13,5 +14,6 @@ export default () => (
     <Route exact path="/alumni" component={Alumni}/>
     <Route exact path="/portfolio" component={Portfolio}/>
     <Route exact path="/recruiting" component={Recruiting}/>
+    <Route path="/" component={Footer}/>
   </Router>
 )

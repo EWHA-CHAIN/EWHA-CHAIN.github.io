@@ -1,3 +1,11 @@
+html, body {
+    min-width: 320px;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+
 /* Header - nav var */
 header {
     background-color: white;
@@ -11,12 +19,25 @@ header {
     box-shadow: 0 0 15px 0 black;
 }
 
+header * {
+    display: inline;
+}
+
+header .nav-bar {
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
+
 header img {
+    position: absolute;
+    left: 10%;
     height: 70px;
 }
 
-header * {
-    display: inline;
+header > nav > ul {
+    position: relative;
+    left: 100px;
 }
 
 header li {
@@ -81,5 +102,5 @@ header li a {
 
 /* responsive */
 @media screen {
-    
+
 }

@@ -4,9 +4,9 @@ const Main0 = () => {
   return(
     <section id="main0" className="page">
       <div id="catchphrase">
-        <p className="main_tit diff">
-          <span className="bold">WE ARE EWHA CHAIN</span><br/>
-          <span>WHERE WE LEAD THE INDUSTRY OF BLOCK CHAIN</span>
+        <p className="main_tit">
+          <span className="bold diff">WE ARE EWHA CHAIN</span><br/>
+          <span>where we lead the industry of block chain</span>
         </p>
       </div>
     </section>

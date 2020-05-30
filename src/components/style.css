@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,600;1,700&family=Jost:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 .diff {
-    font-family: 'Josefin Sans'
+    font-family: 'Fugaz One'
 }
 
 html, body {
@@ -57,8 +56,8 @@ header * {
 }
 
 #Header .nav-left .header_logo {
-    flex: 0.1;
-    width: 40px;
+    flex: 0.2;
+    width: 35px;
     height: 40px;
     margin-top: 15px;
 }
@@ -118,16 +117,15 @@ header * {
 #catchphrase > .main_tit {
     /*background-color: linear-gradient(to bottom, rgba(0, 15, 16, 0.6), rgba(26, 82, 73, 0.6));*/
     color: white;
-    font-size: 27px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 300;
     margin : auto 0;
     padding: 20% 0;
-    letter-spacing: 0.5px ;
-    line-height: 33px;
+    /*letter-spacing: px ;*/
+    line-height: 36px;
 }
 
 #catchphrase > .main_tit > .bold {
-    font-weight: 900;
     font-size: 54.5px;
 }
 

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,600;1,700&family=Jost:wght@700&display=swap');
+
+.diff {
+    font-family: 'Josefin Sans'
+}
+
 html, body {
     min-width: 320px;
 }
@@ -16,7 +22,6 @@ header {
     right: 0;
     height: 70px;
     display: flex;
-    align-items: center;
     box-shadow: 0 0 15px 0 black;
 }
 
@@ -24,31 +29,59 @@ header * {
     display: inline;
 }
 
-header .nav-bar {
-    margin: 0 auto;
+#Header .nav-bar {
+    margin: 0 100px;
     max-width: 1300px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
-header img {
-    position: absolute;
-    left: 10%;
-    height: 70px;
+#Header .nav-bar .nav-bar-div{
+    display: flex;
 }
 
-header > nav > ul {
-    position: relative;
-    left: 100px;
+#Header .nav-bar .nav-bar-div .nav-left{
+    width: 400px;
+    display: flex;
 }
 
-header li {
-    font-weight: 200;
-    margin: 10px;
+#Header .nav-bar .nav-bar-div .nav-right{
+    margin-left: 200px;
+    width: 600px;
+    margin-top: 25px;
 }
 
-header li a {
-    color: black;
+#Header li a {
+    color: white;
     text-decoration: none;
+    margin-right: 50px;
+}
+
+#Header .nav-left .header_logo {
+    flex: 0.1;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+#Header .nav-left .header_logo_txt {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+#Header .nav-left .header_logo_txt .sub_txt {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#Header .nav-left .header_logo_txt .main_txt {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 900;
 }
 
 /* common part */
@@ -85,15 +118,17 @@ header li a {
 #catchphrase > .main_tit {
     /*background-color: linear-gradient(to bottom, rgba(0, 15, 16, 0.6), rgba(26, 82, 73, 0.6));*/
     color: white;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 27px;
+    font-weight: 600;
     margin : auto 0;
-    padding: 15% 0;
+    padding: 20% 0;
+    letter-spacing: 0.5px ;
+    line-height: 33px;
 }
 
 #catchphrase > .main_tit > .bold {
     font-weight: 900;
-    font-size: 60px;
+    font-size: 54.5px;
 }
 
 #catchphrase > .sub_tit {
@@ -259,12 +294,17 @@ header li a {
 }
 
 #Footer .left_sec {
-    padding: 50px 0px 50px 72px;
-    flex: 0.7;
+    padding: 50px 0px 50px 100px;
+    flex: 1;
+}
+
+#Footer .left_sec .sub_logo img {
+    margin: 5px 6px 0px 5px;
+    width: 13px;
 }
 
 #Footer .right_sec {
-    padding: 50px 20px;
+    padding: 50px 0px;
     flex: 1;
 }
 

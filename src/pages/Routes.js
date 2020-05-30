@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from '../components/Home'
 import Portfolio from '../components/Portfolio'
 import Recruiting from '../components/Recruiting'
@@ -9,11 +9,11 @@ import Footer from '../components/Footer';
 
 export default () => (
   <Router>
-    <Route path="/" component={Header}/>
+    <Header/>
     <Route exact path="/" component={Home}/>
     <Route exact path="/alumni" component={Alumni}/>
     <Route exact path="/portfolio" component={Portfolio}/>
     <Route exact path="/recruiting" component={Recruiting}/>
-    <Route path="/" component={Footer}/>
+    <Footer/>
   </Router>
 )

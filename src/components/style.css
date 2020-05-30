@@ -239,6 +239,18 @@ header * {
         url("../static/image/main_sq4.png");
 }
 
+#main2 .act_item .multi {
+    font-size: 24px;
+    font-weight: 300;
+    position: relative;
+    bottom: 15px;
+    line-height: 27px;
+}
+
+#main2 .act_item .multi b {
+    font-weight: 900;
+}
+
 /*main3*/
 #main3 {
     text-align: center;

@@ -9,8 +9,8 @@ const Main3 = () => {
         2019 OCF 개발자 경진대회 대상 수상<br/>
         2019 한국 통신학회 추계 종합 학술 발표회 학부논문경진대회 장려상 수상<br/>
       </div>
-      <div className="sub_txt">.<br/>.<br/>.<br/>
-        36명의 이화인들이 N개의 서비스를 만들었습니다.
+      <div className="sub_txt">.<br/>.<br/>.<br/><br/>
+        2018년 1기부터 현재까지 총
       </div>
     </section>
   )

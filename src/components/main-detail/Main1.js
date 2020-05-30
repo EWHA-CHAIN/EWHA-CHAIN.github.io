@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import mission from '../../static/image/mission.jpg'
 
 const Main1 = () => {
   return(
@@ -10,7 +11,7 @@ const Main1 = () => {
         직접 블록체인 관련 프로젝트를 기획하고 개발할 수 있는<br/> <b>“차세대 블록체인 생태계 리더”</b>를 만드는 것입니다.</p>
       </div>
       <div className="right_sec">
-        <img alt="mission"/>
+        <div className="img"/>
       </div>
     </section>
   )

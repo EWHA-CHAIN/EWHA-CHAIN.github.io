@@ -8,7 +8,8 @@ li, ol, ul {
 
 /* Header - nav var */
 header {
-    background-color: white;
+    background-color: #2d7257;
+    /*background-color: white;*/
     position: fixed;
     top: 0;
     left: 0;
@@ -51,10 +52,14 @@ header li a {
 }
 
 /* common part */
+.light {
+    font-weight: 300;
+}
+
 .page {
-    margin-top: 80px;
-    padding: 20px;
-    height: 500px;
+    margin-top: 70px;
+    padding: 10px;
+    /*height: 100%+70px;*/
     align-content: center;
 }
 
@@ -63,23 +68,27 @@ header li a {
     font-weight: 900;
 }
 
+/* main 0*/
+#main0 {
+    height: 540px;
+}
+
 #catchphrase {
-    background-color: black;
-    margin: 0 auto;
-    width: 90%;
-    height: 95%;
+    background:
+        linear-gradient(to bottom, rgba(0, 15, 16, 0.6), rgba(26, 82, 73, 0.6)),
+        url("../static/image/main.jpg");
+    background-size: 100%;
+    height: 100%;
     text-align: center;
 }
 
 #catchphrase > .main_tit {
+    /*background-color: linear-gradient(to bottom, rgba(0, 15, 16, 0.6), rgba(26, 82, 73, 0.6));*/
     color: white;
     font-size: 40px;
     font-weight: 300;
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate( -50%, -50% );
+    margin : auto 0;
+    padding: 15% 0;
 }
 
 #catchphrase > .main_tit > .bold {
@@ -115,6 +124,7 @@ header li a {
 
 #main1 {
     display: flex;
+    margin: 200px 0;
 }
 
 #main1 .left_sec {
@@ -126,9 +136,23 @@ header li a {
 #main1 .right_sec {
     flex: 1;
     float: right;
+    text-align: center;
+}
+
+#main1 .right_sec .img {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #5f72bd, rgba(71, 64, 191, 0)), url("../static/image/mission.jpg");
+    /*background-size: 100%;*/
+    background-size: contain;
 }
 
 /* main 2*/
+#main2 {
+    margin: 100px 0;
+}
+
 #main2 .tit {
     margin-left: 5%;
     padding-left: 10px;
@@ -142,7 +166,6 @@ header li a {
     margin-left: 5%;
     padding-left: 20px;
     font-size: 27px;
-    font-weight: 500;
 }
 
 #main2 .act_container{
@@ -167,19 +190,92 @@ header li a {
 }
 
 #main2 .item1{
-    background-image: url("../static/image/item1.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../static/image/main_sq1.png");
 }
 
 #main2 .item2{
-    background-image: url("../static/image/item2.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../static/image/main_sq2.png");
 }
 
 #main2 .item3{
-    background-image: url("../static/image/item3.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url("../static/image/main_sq3.png");
 }
 
 #main2 .item4{
-    background-image: url("../static/image/item4.png");
+    background: linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+        url("../static/image/main_sq4.png");
+}
+
+/*main3*/
+#main3 {
+    text-align: center;
+    height: 540px;
+    background: linear-gradient(to bottom, rgba(0, 15, 16, 0.7), rgba(24, 74, 66, 0.7)),
+        url("../static/image/main_colla.png");
+    background-size: contain;
+}
+
+#main3 div {
+    color: white;
+    font-size: 18px;
+}
+
+#main3 .main_txt{
+    padding-top: 80px;
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#main3 .sub_txt {
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+/*footer*/
+
+#Footer {
+    color: white;
+    height: 240px;
+    background-color: #2d7257;
+    display: flex;
+}
+
+#Footer .tit {
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 38px;
+}
+
+#Footer .sub {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#Footer .light {
+    font-weight: 300;
+}
+
+#Footer .left_sec {
+    padding: 50px 0px 50px 72px;
+    flex: 0.7;
+}
+
+#Footer .right_sec {
+    padding: 50px 20px;
+    flex: 1;
+}
+
+#Footer .social_logo {
+    margin-top: 40px;
+    width: 60%;
+    display: flex;
+}
+
+#Footer .social_logo .logo{
+    flex: 1;
 }
 
 /* Footer */

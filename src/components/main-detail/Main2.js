@@ -15,7 +15,7 @@ const Main2 = () => {
         <div className="act_item item3">
           <p className="item_tit">NETWORKING</p>
         </div>
-        <div className="act_item" item4>
+        <div className="act_item item4" >
           <p className="item_tit">WRITING</p>
         </div>
       </div>

@@ -1,4 +1,7 @@
 import React from 'react';
+import port2 from '../static/image/port2.png';
+import port3 from '../static/image/port3.png';
+import port4 from '../static/image/port4.png';
 
 const Portfolio = () => {
   return (
@@ -21,10 +24,13 @@ const Portfolio = () => {
               <div className="detail">NAVER AI BURNING DAY<br/>해커톤 본선 진출</div>
             </div>
           </div>
+
         </section>
       </div>
-
-
+      <div className="opacity"/>
+      <div className="port"><img src={port2}/></div>
+      <div className="port"><img src={port3}/></div>
+      <div className="port"><img src={port4}/></div>
     </div>
   )
 }

@@ -94,7 +94,7 @@ header * {
 
 .page {
     margin-top: 70px;
-    padding: 10px;
+    padding: 10px 0;
     /*height: 100%+70px;*/
     align-content: center;
 }
@@ -385,6 +385,42 @@ header * {
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+/* Alumni*/
+
+#Alumni .top .main_tit {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    line-height: 45px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+#Alumni .top .tit_line {
+    margin-top: 20px;
+    width: 200px;
+    border-bottom: 5px solid grey;
+    margin-bottom: 10px;
+}
+
+#Alumni .list{
+    display: flex;
+}
+
+#Alumni .order {
+    flex: 1;
+    margin-left: 150px;
+}
+
+#Alumni .order .num {
+    margin-bottom: 20px;
+}
+
+#Alumni .display_list {
+    flex: 2;
+}
+
 
 /*footer*/
 

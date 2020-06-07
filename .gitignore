@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# private information
+auth.js
+AlumniData/
+
 # production
 /build
 

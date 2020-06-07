@@ -4,14 +4,14 @@ import Home from '../components/Home'
 import Portfolio from '../components/Portfolio'
 import Recruiting from '../components/Recruiting'
 import Header from "../components/Header";
-import Alumni from "../components/Alumni";
+import AlumniAuth from "./AlumniAuth";
 import Footer from '../components/Footer';
 
 export default () => (
   <Router>
     <Header/>
     <Route exact path="/" component={Home}/>
-    <Route exact path="/alumni" component={Alumni}/>
+    <Route exact path="/alumni" component={AlumniAuth}/>
     <Route exact path="/portfolio" component={Portfolio}/>
     <Route exact path="/recruiting" component={Recruiting}/>
     <Footer/>
